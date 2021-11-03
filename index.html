@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Profile page</title>
+</head>
+
+<body>
+    <!-- Bootstrap class - container -->
+    <div class="container">
+        <div class="d-flex justify-content-center m-3" id="info">
+            <!-- img -->
+            <img src="photo.png" class="rounded" alt="..." width="350px">
+            <div class="d-flex flex-column bd-highlight mx-5">
+                <p class="fs-1 p-3"><i class="bi bi-person-fill"></i> Dajung Choi</p>
+                <!-- list -->
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        October 10, 1999
+                    </li>
+                    <li class="list-group-item">
+                        <!-- link 1 -->
+                        <a href="https://www.skku.edu/skku/index.do">Sungkyunkwan Univ.</a>
+                    </li>
+                    <li class="list-group-item">
+                        <!-- link 2 -->
+                        <a href="https://skb.skku.edu/math/index.do">Mathematics</a> /
+                        <!-- link 3 -->
+                        <a href="https://cs.skku.edu/ko/">Computer Science</a>
+                    </li>
+                    <li class="list-group-item">
+                        Interested in. ML, Data Science
+                    </li>
+                    <li class="list-group-item">
+                        cdj2073@g.skku.edu
+                    </li>
+                    <li class="list-group-item">
+                        <i class="bi bi-github"></i>
+                        <!-- link 4 -->
+                        <a href="https://github.com/cdj2073">Github</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="d-flex flex-column m-5" id="courses">
+            <p class="text-muted fs-4">Course</p>
+            <!-- Table -->
+            <table class="table table-hover shadow p-3 mb-5 bg-body rounded">
+                <thead class="table-light">
+                    <tr>
+                        <th scope="col">Course Code</th>
+                        <th scope="col">Course Name</th>
+                        <th scope="col">Professor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">SWE2021</th>
+                        <td>Open Source Software Practice</td>
+                        <td>Jaemin Jo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SWE3022</th>
+                        <td>Computer Networks</td>
+                        <td>Hyoungkee Choi</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SWE2016</th>
+                        <td>Algorithms</td>
+                        <td>TAEHO CHO</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SWE3002</th>
+                        <td>Introduction to Software Engineering</td>
+                        <td>Eunseok Lee</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div><!-- end of container -->
+</body>
+</html>
